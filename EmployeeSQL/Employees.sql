@@ -64,3 +64,15 @@ INNER JOIN  departments d ON
 d.dept_no = m.dept_no
 INNER JOIN employees e ON
 e.emp_no = m.emp_no
+
+-- 4. List the department of each employee with the following information: 
+-- employee number, last name, first name, and department name.
+SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
+FROM employees e
+INNER JOIN  dept_emp dp ON
+e.emp_no = dp.emp_no
+INNER JOIN departments d ON
+d.dept_no = dp.dept_no
+
+
+
