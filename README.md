@@ -6,7 +6,8 @@ The SQL schemas was defined as this ERD shows:
 
 The dept_emp and dept_manager where created by using compound keys since both of them had repeated values in each column
 
-The queries where the following 
+The following queries where performed:
+
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 ![](Reference_images/1stQuery.png)
@@ -39,3 +40,5 @@ department number, department name, the manager's employee number, last name, fi
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 ![](Reference_images/8thQuery.png)
+
+Note: Please find that only the first 10 results where included in the images to improve the readability of this README file
